@@ -1,4 +1,48 @@
+/* GENERAL */
+
 * {
   font-family: "Raleway", sans-serif;
-  border: 1px solid black;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  border: 0px solid black;
+}
+
+body {
+  padding: 0px 60px 0px 60px;
+}
+
+p {
+  font-size: 1.1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+}
+
+.logo {
+  height: 20px;
+  margin-top: 45px;
+}
+
+.navbar-links {
+  margin-left: 40px;
+  padding: 45px 15px 45px 15px;
+  color: black;
+}
+
+.navbar-links:hover {
+  color: #0065fc;
+  border-top: #0065fc 3px solid;
 }
