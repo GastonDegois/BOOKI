@@ -324,3 +324,34 @@ h1 {
 .most-popular .rating {
   margin: 0;
 }
+
+/* ACTIVITIES SECTION */
+.activities-section {
+  margin-top: 65px;
+  margin-bottom: 50px;
+}
+
+.activities-section .card {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 470px;
+  width: 22.5%;
+  margin-top: 20px;
+
+  box-shadow: 0px 5px 10px#e1e1e1;
+}
+
+.activities-section .card-img {
+  border-radius: 20px 20px 0px 0px;
+
+  height: 420px;
+  width: 100%;
+}
+
+.activities-section h4 {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  margin: 15px 20px 15px 20px;
+}
