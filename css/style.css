@@ -16,12 +16,21 @@ h3 {
   font-size: 1.5em;
 }
 
+h4 {
+  font-size: 1.1em;
+}
+
 p {
   font-size: 1.1em;
 }
 
 a {
   text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
 }
 
 /* HEADER */
@@ -138,7 +147,6 @@ h1 {
   display: flex;
   margin-top: 35px;
   margin-left: 40px;
-  list-style-type: none;
   padding: 11px 20px 11px 20px;
   border: #e0e0e0 3px solid;
   border-radius: 40px;
@@ -245,10 +253,6 @@ h1 {
   margin: 10px;
 }
 
-.card h4 {
-  font-size: 1.1em;
-}
-
 .card p {
   font-size: 0.9em;
   margin-top: 5px;
@@ -328,7 +332,6 @@ h1 {
 /* ACTIVITIES SECTION */
 .activities-section {
   margin-top: 65px;
-  margin-bottom: 50px;
 }
 
 .activities-section .card {
@@ -354,4 +357,31 @@ h1 {
   align-items: center;
   flex-grow: 1;
   margin: 15px 20px 15px 20px;
+}
+
+/* FOOTER */
+
+footer {
+  margin-top: 65px;
+  padding: 50px 25% 40px 70px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-list-container {
+  margin-right: 0px;
+}
+
+h5 {
+  font-size: 1.2em;
+  white-space: nowrap;
+}
+
+.footer-list {
+  margin-top: 20px;
+}
+
+.footer-list li {
+  margin-bottom: 14px;
 }
