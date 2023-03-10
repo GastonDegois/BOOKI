@@ -46,21 +46,24 @@ li {
 header {
   display: flex;
   justify-content: space-between;
+  padding-top: 45px;
 }
 
-nav {
+.navbar-list {
   display: flex;
 }
 
 .logo {
   height: 20px;
-  margin-top: 45px;
+}
+
+.navbar-items {
+  margin-left: 40px;
+  color: black;
 }
 
 .navbar-links {
-  margin-left: 40px;
-  padding: 45px 15px 45px 15px;
-  color: black;
+  padding: 43px 15px 0px 15px;
 }
 
 .navbar-links:hover {
@@ -71,7 +74,7 @@ nav {
 /* SEARCH SECTION */
 
 .search-section {
-  margin-top: 25px;
+  margin-top: 70px;
 }
 
 h1 {
@@ -117,6 +120,10 @@ h1 {
 
   font-size: 1.2em;
   font-weight: bold;
+}
+
+.search-input::placeholder {
+  opacity: 1;
 }
 
 .search-input:focus {
@@ -608,20 +615,20 @@ h5 {
   }
 
   h1 {
-    font-size: 2.5em;
+    font-size: ;
     margin-bottom: 20px;
   }
 
   h3 {
-    font-size: 2.7em;
+    font-size: em;
   }
 
   h4 {
-    font-size: 2em;
+    font-size: em;
   }
 
   p {
-    font-size: 1.8em;
+    font-size: em;
   }
 
   /* HEADER */
@@ -632,7 +639,7 @@ h5 {
   }
 
   .logo {
-    height: 35px;
+    height: px;
   }
 
   nav {
@@ -640,12 +647,18 @@ h5 {
     margin-top: 40px;
   }
 
+  .navbar-items {
+    width: 50%;
+    margin: 0;
+  }
   .navbar-links {
     flex-grow: 1;
     text-align: center;
     margin: 0;
-    font-size: 1.8em;
+    font-size: em;
     border-bottom: #f2f2f2 5px solid;
+    width: 100%;
+    padding: 0 50% 20px 50%;
   }
 
   .navbar-links:hover {
