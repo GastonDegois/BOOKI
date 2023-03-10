@@ -652,9 +652,10 @@ h5 {
     margin: 0;
   }
   .navbar-links {
-    flex-grow: 1;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     margin: 0;
+    padding: 0;
     font-size: em;
     border-bottom: #f2f2f2 5px solid;
     width: 100%;
@@ -677,28 +678,7 @@ h5 {
 
   .search-form {
     margin-top: 60px;
-    height: 100px;
     width: 100%;
-  }
-
-  .location-icon {
-    font-size: 2.1em;
-    width: 100px;
-    border-radius: 25px 0 0 25px;
-  }
-
-  .search-input {
-    padding-left: 130px;
-    padding-right: 110px;
-
-    border: #f2f2f2 solid 2px;
-    border-radius: 25px;
-
-    font-size: 2.1em;
-  }
-
-  .search-input:focus {
-    outline: 3px solid #0065fc;
   }
 
   .submit-desktop-tablet {
@@ -710,10 +690,10 @@ h5 {
     align-items: center;
     justify-content: center;
 
-    width: 100px;
-    border-radius: 0 25px 25px 0;
+    width: 50px;
+    border-radius: 0 15px 15px 0;
 
-    font-size: 2.1em;
+    font-size: 1em;
   }
 
   /* search filters */
@@ -724,7 +704,7 @@ h5 {
   }
 
   .filters-title {
-    font-size: 2em;
+    font-size: em;
     margin-top: 65px;
   }
 
@@ -737,29 +717,18 @@ h5 {
     white-space: normal;
     margin-left: 0;
     margin-top: 30px;
-    height: 90px;
+    height: 50px;
     width: 48%;
-    border: #e0e0e0 4px solid;
+    border: #e0e0e0 2px solid;
     border-radius: 50px;
   }
 
   .filter-icon {
-    font-size: 2.2em;
+    font-size: em;
   }
 
   .filter-content {
-    font-size: 1.5em;
-  }
-
-  .i-icon {
-    height: 40px;
-    width: 40px;
-    max-width: 40px;
-    min-width: 40px;
-    font-size: 1.4em;
-    border-radius: 50px;
-    border: 2px solid #d3d3d3;
-    align-self: flex-start;
+    font-size: em;
   }
 
   /* CARDS GENERAL */
