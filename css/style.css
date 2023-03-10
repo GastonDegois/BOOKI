@@ -738,16 +738,13 @@ h5 {
   }
 
   .card {
-    border-radius: 30px;
     width: 100%;
   }
 
   .card p {
-    font-size: 1.6em;
   }
 
   .rating {
-    font-size: 1.5em;
     margin-top: 5px;
   }
 
@@ -791,7 +788,6 @@ h5 {
   }
 
   .fa-chart-line {
-    font-size: 2em;
   }
 
   .most-popular--card-container {
@@ -799,22 +795,17 @@ h5 {
   }
 
   .most-popular--card {
-    height: 280px;
+    height: 180px;
     margin-top: 20px;
-    padding: 8px;
   }
 
   .most-popular--card-img {
-    height: 262px;
-    border-radius: 25px 0 0 25px;
+    height: 170px;
   }
 
   .most-popular--card-content {
-    margin: 20px 20px 10px 30px;
-  }
 
   .most-popular h4 {
-    font-size: 2em;
   }
 
   /* ACTIVITIES SECTION */
