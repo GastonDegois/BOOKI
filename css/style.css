@@ -836,22 +836,19 @@ h5 {
 
   footer {
     flex-direction: column;
-    padding-top: 90px;
+    padding: 40px 0px 20px 10%;
   }
 
   .footer-list-container {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
   }
 
   h5 {
-    font-size: em;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     white-space: pre-wrap;
   }
 
   .footer-list li {
-    font-size: em;
-    margin-bottom: 20px;
     white-space: pre-wrap;
   }
 }
