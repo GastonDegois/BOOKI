@@ -625,7 +625,7 @@ h5 {
   }
 
   h4 {
-    font-size: em;
+    font-size: 1.1em;
   }
 
   p {
@@ -734,7 +734,7 @@ h5 {
   }
 
   .filter-content {
-    font-size: .85em;
+    font-size: 0.85em;
     margin-left: 4px;
   }
 
@@ -773,13 +773,12 @@ h5 {
   }
 
   .filtered-accommodations--card {
-    height: 370px;
+    height: 70px;
     padding: 8px;
   }
 
   .filtered-accommodations--card-img {
-    height: 220px;
-    border-radius: 25px 25px 0 0;
+    height: 60%;
   }
 
   .show-more {
@@ -808,15 +807,14 @@ h5 {
     height: 140px;
   }
 
-  .most-popular--card-content {
-
   .most-popular h4 {
+    font-size: 1.1em;
   }
 
   /* ACTIVITIES SECTION */
 
   .activities-section {
-    padding: 50px 40px 30px 40px;
+    padding: 50px 4% 30px 4%;
   }
 
   .activities-section h3 {
@@ -825,22 +823,15 @@ h5 {
   }
 
   .activities--card {
-    min-height: 350px;
+    min-height: 200px;
     width: 100%;
     margin-top: 0;
     margin-bottom: 40px;
   }
 
   .activities--card-img {
-    height: 250px;
-    border-radius: 30px 30px 0 0;
+    height: 150px;
   }
-
-  .activities-section h4 {
-    font-size: 2em;
-    margin: 10px 15px 10px 30px;
-  }
-
   /* FOOTER */
 
   footer {
@@ -853,13 +844,13 @@ h5 {
   }
 
   h5 {
-    font-size: 2.2em;
+    font-size: em;
     margin-bottom: 40px;
     white-space: pre-wrap;
   }
 
   .footer-list li {
-    font-size: 1.9em;
+    font-size: em;
     margin-bottom: 20px;
     white-space: pre-wrap;
   }
