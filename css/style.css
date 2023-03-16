@@ -7,7 +7,6 @@
 
   margin: 0px;
   padding: 0px;
-  border: px solid black;
 }
 html {
   display: flex;
@@ -618,20 +617,11 @@ h5 {
   }
 
   h1 {
-    font-size: ;
     margin-bottom: 20px;
-  }
-
-  h3 {
-    font-size: em;
   }
 
   h4 {
     font-size: 1.1em;
-  }
-
-  p {
-    font-size: em;
   }
 
   /* HEADER */
@@ -639,10 +629,8 @@ h5 {
   header {
     flex-direction: column;
     align-items: center;
-    padding-top: 20px;
-  }
 
-  .logo {
+    padding-top: 20px;
   }
 
   nav {
@@ -657,12 +645,12 @@ h5 {
   .navbar-links {
     display: flex;
     justify-content: center;
+
     margin: 0;
-    padding: 0;
-    font-size: em;
+    padding: 0 50% 20px 50%;
+
     border-bottom: #f2f2f2 5px solid;
     width: 100%;
-    padding: 0 50% 20px 50%;
   }
 
   .navbar-links:hover {
@@ -722,20 +710,20 @@ h5 {
   .filter {
     align-items: center;
     white-space: normal;
+
     margin-left: 0;
     margin-top: 15px;
+    padding-right: 10px;
+
     height: 50px;
     width: 48%;
+
     border: #e0e0e0 2px solid;
     border-radius: 50px;
   }
 
-  .filter-icon {
-    font-size: em;
-  }
-
   .filter-content {
-    font-size: 0.85em;
+    font-size: 0.8em;
     margin-left: 4px;
   }
 
@@ -749,9 +737,6 @@ h5 {
     width: 100%;
     margin-top: 15px;
     height: 70px;
-  }
-
-  .card p {
   }
 
   .rating {
@@ -793,9 +778,6 @@ h5 {
     margin-top: 25px;
   }
 
-  .fa-chart-line {
-  }
-
   .most-popular--card-container {
     padding-top: 15px;
   }
@@ -826,8 +808,9 @@ h5 {
   .activities--card {
     min-height: 200px;
     width: 100%;
+
     margin-top: 0;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
   }
 
   .activities--card-img {
@@ -838,6 +821,7 @@ h5 {
   footer {
     flex-direction: column;
     padding: 40px 0px 20px 10%;
+    margin-top: 40px;
   }
 
   .footer-list-container {
